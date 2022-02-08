@@ -21,7 +21,7 @@ public class TestNGDemo {
 		driver.navigate().to("http://www.google.com");
 
 	}
-
+//regression test groups
 	@Test (groups = {"regression"})
 	public void userCanLogin() {
 		System.out.println(driver.getCurrentUrl() );
